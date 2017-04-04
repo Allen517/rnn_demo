@@ -3,7 +3,6 @@ cas_file=data/toy.memeformat
 #validation set#
 crs_val_file=data/toy.memeformat
 
-freq_file=data/toy.memeformat.freq.stats
 out_file=word.rnn.model
 
 #false: for training a new model#
