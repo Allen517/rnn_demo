@@ -1,0 +1,89 @@
+time_div:100
+thread_num:4
+in_dyn_size:10
+in_fixed_size:136
+out_file:word.rnn.model
+rnn_type:gru
+beta1:0.9 
+lr:1 
+beta2:0.999
+validation_cycle:10
+epoch:100001
+bias_init_val:.1
+is_cont_training:false 
+node_size:81
+cas_file:data/toy.memeformat
+stop_count:50
+gamma:1
+crs_val_file:data/toy.memeformat
+freq_file:data/toy.memeformat.freq.stats
+train_strategy:adam
+sleep_sec:1.
+no_of_minibatch_values:256
+init_scale:1.
+time_dist:const
+hidden_size:10
+Iter = 1, error = 4.095635555328433, time = 2.011s
+Iter = 2, error = 5.024950155302669, time = 1.006s
+Iter = 3, error = 10.094829605167535, time = 1.009s
+Iter = 4, error = 9.516689901955276, time = 1.01s
+Iter = 5, error = 9.687481281827608, time = 1.007s
+Iter = 6, error = 8.078487026077985, time = 1.01s
+Iter = 7, error = 8.592599311030636, time = 1.01s
+Iter = 8, error = 8.169364667479892, time = 1.007s
+Iter = 9, error = 8.649201457407253, time = 1.009s
+Iter = 10, error = 9.71095588301, time = 1.007s
+The likelihood in Validation: 9.870541542008407
+The MRR of node prediction in Validation: 0.0
+Iter = 11, error = 9.637930972289976, time = 1.025s
+Iter = 12, error = 9.15054898028157, time = 1.006s
+Iter = 13, error = 8.117665734944909, time = 1.013s
+Iter = 14, error = 7.640807295649413, time = 1.006s
+Iter = 15, error = 6.701000326332613, time = 1.018s
+Iter = 16, error = 7.311643618759451, time = 1.006s
+Iter = 17, error = 8.172770581392617, time = 1.007s
+Iter = 18, error = 9.579198407023016, time = 1.006s
+Iter = 19, error = 8.839679835866926, time = 1.01s
+Iter = 20, error = 9.222212386211554, time = 1.009s
+The likelihood in Validation: 8.314920517846756
+The MRR of node prediction in Validation: 0.0
+Iter = 21, error = 8.137227023834006, time = 1.006s
+Iter = 22, error = 7.750263900083325, time = 1.01s
+Iter = 23, error = 7.480033364030342, time = 1.002s
+Iter = 24, error = 6.966511222900123, time = 1.004s
+Iter = 25, error = 7.562647244982441, time = 1.005s
+Iter = 26, error = 7.5195251723134975, time = 1.005s
+Iter = 27, error = 7.296584215878852, time = 1.006s
+Iter = 28, error = 7.041216905116428, time = 1.007s
+Iter = 29, error = 7.1064463108817675, time = 1.005s
+Iter = 30, error = 7.867841237413177, time = 1.007s
+The likelihood in Validation: 7.7287907364224075
+The MRR of node prediction in Validation: 0.0
+Iter = 31, error = 7.504082606214075, time = 1.008s
+Iter = 32, error = 7.559218998081662, time = 1.005s
+Iter = 33, error = 7.188533555365437, time = 1.007s
+Iter = 34, error = 6.981338952357321, time = 1.009s
+Iter = 35, error = 7.422754882860128, time = 1.003s
+Iter = 36, error = 8.213729323885518, time = 1.004s
+Iter = 37, error = 7.052904284204413, time = 1.007s
+Iter = 38, error = 7.142118049097428, time = 1.002s
+Iter = 39, error = 8.088820371998032, time = 1.007s
+Iter = 40, error = 8.767266554364028, time = 1.039s
+The likelihood in Validation: 8.739530392017745
+The MRR of node prediction in Validation: 0.0
+Iter = 41, error = 8.75732402528157, time = 1.002s
+Iter = 42, error = 9.084001412768073, time = 1.005s
+Iter = 43, error = 8.760909874771649, time = 1.005s
+Iter = 44, error = 9.038143744412478, time = 1.005s
+Iter = 45, error = 9.109931735876144, time = 1.005s
+Iter = 46, error = 8.956568828346997, time = 1.005s
+Iter = 47, error = 9.487675430918356, time = 1.005s
+Iter = 48, error = 8.788127137456314, time = 1.005s
+Iter = 49, error = 8.986486812550458, time = 1.002s
+Iter = 50, error = 9.314651140371014, time = 1.004s
+The likelihood in Validation: 9.57476742653973
+The MRR of node prediction in Validation: 0.0
+Iter = 51, error = 9.170899480225664, time = 1.003s
+Iter = 52, error = 8.958043778058713, time = 1.004s
+Iter = 53, error = 9.172521826088357, time = 1.004s
+Iter = 54, error = 9.400233566723672, time = 1.005s

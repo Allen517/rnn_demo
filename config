@@ -1,0 +1,48 @@
+#training set#
+cas_file=data/toy.memeformat
+#validation set#
+crs_val_file=data/toy.memeformat
+
+freq_file=data/toy.memeformat.freq.stats
+out_file=word.rnn.model
+
+#false: for training a new model#
+is_cont_training=false 
+
+last_rnn_model=
+
+rnn_type=gru
+
+no_of_minibatch_values=256
+
+#adam/adagrad
+train_strategy=adam
+beta1=0.9 
+beta2=0.999
+
+#learning rate#
+lr=.1 
+
+init_scale=1.
+bias_init_val=.1
+gamma=1
+#const/exp
+time_dist=const
+#maximum training epoches#
+epoch=100001
+#cycle for validation#
+validation_cycle=10
+stop_count=50
+#encoder size#
+node_size=81
+#input size#
+in_fixed_size=136
+in_dyn_size=10
+#hidden size#
+hidden_size=10
+
+#it better tunes to larger than 10, if the results go wrong
+time_div=100
+
+thread_num=4
+sleep_sec=1.
