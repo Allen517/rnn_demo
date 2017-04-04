@@ -206,7 +206,6 @@ public class GRU extends Operator implements Cell, Serializable{
             DoubleMatrix gh = acts.get("gh" + t);
             
             DoubleMatrix deltaY = acts.get("dy" + t);
-            DoubleMatrix deltaD = acts.get("dd" + t);
             
             DoubleMatrix deltaH = null;
             if (t == lastT) {

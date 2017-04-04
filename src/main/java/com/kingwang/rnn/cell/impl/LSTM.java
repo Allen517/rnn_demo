@@ -295,7 +295,6 @@ public class LSTM extends Operator implements Cell, Serializable  {
         for (int t = lastT; t > -1; t--) {
         	// delta d & y
         	DoubleMatrix deltaY = acts.get("dy" + t);
-        	DoubleMatrix deltaD = acts.get("dd" + t);
         	
             // cell output errors
             DoubleMatrix h = acts.get("h" + t);
