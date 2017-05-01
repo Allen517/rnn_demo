@@ -2,7 +2,7 @@
 
 Implementation of LSTM and GRU. 
 
-You can building the project by Maven 3.0.
+You can build the project by Maven 3.0.
 
 ## Data description
 
@@ -12,4 +12,4 @@ You can building the project by Maven 3.0.
 
 ## Dependencies
 
-Guava (mentioned in pom.xml) cannot be accessed in China by GFW, you may need vpn to completely download it by Maven. Otherwise, you can manually add guava_18.0 which I have included into this project.
+Guava (mentioned in pom.xml) cannot be accessed in China by GFW, you may need vpn to completely download it through Maven. Otherwise, you can manually add guava_18.0 which I have included into this project.
